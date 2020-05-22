@@ -20,6 +20,7 @@ class SearchBar extends React.Component {
             <input
               type="text"
               value={this.state.item}
+              placeholder="Search for images"
               onChange={(e) => this.setState({ item: e.target.value })}
             />
             <label>Image Search</label>
